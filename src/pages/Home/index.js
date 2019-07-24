@@ -17,6 +17,13 @@ import Feature from "../../components/Feature";
 import HomeCard from "../../components/HomeCard";
 
 //photos
+import HousePhoto_1 from "../../assets/img/house-1.jpeg";
+import HousePhoto_2 from "../../assets/img/house-2.jpeg";
+import HousePhoto_3 from "../../assets/img/house-3.jpeg";
+import HousePhoto_4 from "../../assets/img/house-4.jpeg";
+import HousePhoto_5 from "../../assets/img/house-5.jpeg";
+import HousePhoto_6 from "../../assets/img/house-6.jpeg";
+
 
 class Home extends React.Component {
     render() {
@@ -76,12 +83,66 @@ class Home extends React.Component {
                     storyText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!"
                 />
                 <Homes>
-                    <HomeCard text="home card 1" />
-                    <HomeCard text="home card 2" />
-                    <HomeCard text="home card 3" />
-                    <HomeCard text="home card 4" />
-                    <HomeCard text="home card 5" />
-                    <HomeCard text="home card 6" />
+                    <HomeCard
+                        image={HousePhoto_1}
+                        headingText="Beautiful Familiy House"
+                        locationText="USA"
+                        roomsText="5 rooms"
+                        areaText_1="323 m"
+                        areaText_2="2"
+                        priceText="$1,200,000"
+                        text="USA"
+                    />
+                    <HomeCard
+                        image={HousePhoto_2}
+                        headingText="Modern Glass Villa"
+                        locationText="Canada"
+                        roomsText="6 rooms"
+                        areaText_1="450 m"
+                        areaText_2="2"
+                        priceText="$2,750,000"
+
+                    />
+                    <HomeCard
+                        image={HousePhoto_3}
+                        headingText="Cozy Country House"
+                        locationText="UK"
+                        roomsText="4 rooms"
+                        areaText_1="250 m"
+                        areaText_2="2"
+                        priceText="$850,000"
+
+                    />
+                    <HomeCard
+                        image={HousePhoto_4}
+                        headingText="Large Rustical Villa"
+                        locationText="Portugal"
+                        roomsText="6 rooms"
+                        areaText_1="480 m"
+                        areaText_2="2"
+                        priceText="$1,950,000"
+
+                    />
+                    <HomeCard
+                        image={HousePhoto_5}
+                        headingText="Majestic Palace House"
+                        locationText="Germany"
+                        roomsText="18 rooms"
+                        areaText_1="4230 m"
+                        areaText_2="2"
+                        priceText="$9,500,000"
+
+                    />
+                    <HomeCard
+                        image={HousePhoto_6}
+                        headingText="Modern Familiy Apartment"
+                        locationText="Italy"
+                        roomsText="3 rooms"
+                        areaText_1="80 m"
+                        areaText_2="2"
+                        priceText="$600,000"
+
+                    />
                 </Homes>
                 <Gallery>
                     Gallery
