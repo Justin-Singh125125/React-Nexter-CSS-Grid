@@ -2,10 +2,7 @@ import React from "react";
 
 //components
 import SvgIcon from "../SvgIcon";
-import Heading_4 from "../Heading-4";
-
-//sprite
-import SvgIcons from "../../assets/img/sprite.svg";
+import Heading from "../Heading";
 
 const Feature = props => {
     return (
@@ -14,8 +11,8 @@ const Feature = props => {
                 svgClass="feature__icon"
                 svgSelection={props.svgSelection}
             />
-            <Heading_4 text={props.headingText} />
-            <p className="feature_text">{props.featureText}</p>
+            <Heading type="4" color="dark" text={props.headingText} />
+            <p className="feature__text">{props.featureText}</p>
         </div>
     )
 }
