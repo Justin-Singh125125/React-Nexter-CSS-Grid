@@ -68,9 +68,7 @@ class Home extends React.Component {
                     />
 
                 </Features>
-                <StoryPictures>
-                    Story pictures
-                </StoryPictures>
+                <StoryPictures />
                 <StoryContent
                     storyText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!"
                 />
