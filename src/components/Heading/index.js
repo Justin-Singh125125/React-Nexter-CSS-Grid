@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = props => {
     let type = "";
-    let color = "";
+
 
     //types
     if (props.type === "1") {
@@ -27,11 +27,32 @@ const Heading = props => {
         type += ` ${type}--dark`
     }
 
+    if (props.marginBottom === "sm") {
+        type += ` mb-sm`
+    }
+    if (props.marginBottom === "md") {
+        type += ` mb-md`
+    }
+    if (props.marginBottom === "lg") {
+        type += ` mb-lg`
+    }
+    if (props.marginBottom === "hg") {
+        type += ` mb-hg`
+    }
+
 
 
 
     return (
-        <h4 className={type}>{props.text}</h4>
+        props.type === "1" ? <h1 className={type}>{props.text}</h1> : "" ||
+
+            props.type === "2" ? <h2 className={type}>{props.text}</h2> : "" ||
+
+                props.type === "3" ? <h3 className={type}>{props.text}</h3> : "" ||
+
+                    props.type === "4" ? <h4 className={type}>{props.text}</h4> : ""
+
+
     )
 }
 
