@@ -14,6 +14,9 @@ import Footer from "../../layouts/Footer";
 import StoryPictures from "../../components/Story-Pictures";
 import StoryContent from "../../components/Story-Content";
 import Feature from "../../components/Feature";
+import HomeCard from "../../components/HomeCard";
+
+//photos
 
 class Home extends React.Component {
     render() {
@@ -73,7 +76,12 @@ class Home extends React.Component {
                     storyText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!"
                 />
                 <Homes>
-                    Homes
+                    <HomeCard text="home card 1" />
+                    <HomeCard text="home card 2" />
+                    <HomeCard text="home card 3" />
+                    <HomeCard text="home card 4" />
+                    <HomeCard text="home card 5" />
+                    <HomeCard text="home card 6" />
                 </Homes>
                 <Gallery>
                     Gallery
