@@ -11,5 +11,28 @@
         background-color: $color-grey-light-1;
      
         grid-column: col-start 5 / full-end;
+
+        padding: 6rem 8vw;
+
+        //alternate way
+
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: flex-start;
+
+
+        display: grid;
+        align-content: center;
+        justify-items: start;
+
+
+
+
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        font-style: italic;
     }
 }

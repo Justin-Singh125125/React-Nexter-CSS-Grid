@@ -33,51 +33,47 @@ class Home extends React.Component {
                         featureText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
                         svgSelection="icon-global"
                         headingText="World's best luxury homes"
-                        featureText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+                    // eslint-disable-next-line react/jsx-no-duplicate-props
                     />
 
                     <Feature
                         featureText="Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia."
                         svgSelection="icon-trophy"
                         headingText="Only the best properties"
-                        featureText="Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia."
+                    // eslint-disable-next-line react/jsx-no-duplicate-props
                     />
 
                     <Feature
                         featureText="Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum."
                         svgSelection="icon-map-pin"
                         headingText="All homes in top locations"
-                        featureText="Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum."
                     />
 
                     <Feature
                         featureText="Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit."
                         svgSelection="icon-key"
                         headingText="New home in one week"
-                        featureText="Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit."
                     />
 
                     <Feature
                         featureText="Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus."
                         svgSelection="icon-presentation"
                         headingText="Top 1% realtors"
-                        featureText="Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus."
                     />
 
                     <Feature
                         featureText="Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae."
                         svgSelection="icon-lock"
                         headingText="Secure payments on Nexter"
-                        featureText="Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae."
                     />
 
                 </Features>
                 <StoryPictures>
                     Story pictures
                 </StoryPictures>
-                <StoryContent>
-                    Story Content
-                </StoryContent>
+                <StoryContent
+                    storyText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!"
+                />
                 <Homes>
                     Homes
                 </Homes>
