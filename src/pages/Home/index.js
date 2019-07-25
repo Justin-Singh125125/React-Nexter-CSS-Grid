@@ -16,6 +16,7 @@ import StoryContent from "../../components/Story-Content";
 import Feature from "../../components/Feature";
 import HomeCard from "../../components/HomeCard";
 import GalleryImage from "../../components/GalleryImage";
+import FooterNavbar from "../../components/FooterNavbar";
 
 //photos
 import HousePhoto_1 from "../../assets/img/house-1.jpeg";
@@ -206,7 +207,7 @@ class Home extends React.Component {
                     </figure>
                 </Gallery>
                 <Footer>
-                    Footer
+                    <FooterNavbar />
                 </Footer>
 
             </Container>
