@@ -15,6 +15,7 @@ import StoryPictures from "../../components/Story-Pictures";
 import StoryContent from "../../components/Story-Content";
 import Feature from "../../components/Feature";
 import HomeCard from "../../components/HomeCard";
+import GalleryImage from "../../components/GalleryImage";
 
 //photos
 import HousePhoto_1 from "../../assets/img/house-1.jpeg";
@@ -23,6 +24,21 @@ import HousePhoto_3 from "../../assets/img/house-3.jpeg";
 import HousePhoto_4 from "../../assets/img/house-4.jpeg";
 import HousePhoto_5 from "../../assets/img/house-5.jpeg";
 import HousePhoto_6 from "../../assets/img/house-6.jpeg";
+
+import GalleryPhoto_1 from "../../assets/img/gal-1.jpeg";
+import GalleryPhoto_2 from "../../assets/img/gal-2.jpeg";
+import GalleryPhoto_3 from "../../assets/img/gal-3.jpeg";
+import GalleryPhoto_4 from "../../assets/img/gal-4.jpeg";
+import GalleryPhoto_5 from "../../assets/img/gal-5.jpeg";
+import GalleryPhoto_6 from "../../assets/img/gal-6.jpeg";
+import GalleryPhoto_7 from "../../assets/img/gal-7.jpeg";
+import GalleryPhoto_8 from "../../assets/img/gal-8.jpeg";
+import GalleryPhoto_9 from "../../assets/img/gal-9.jpeg";
+import GalleryPhoto_10 from "../../assets/img/gal-10.jpeg";
+import GalleryPhoto_11 from "../../assets/img/gal-11.jpeg";
+import GalleryPhoto_12 from "../../assets/img/gal-12.jpeg";
+import GalleryPhoto_13 from "../../assets/img/gal-13.jpeg";
+import GalleryPhoto_14 from "../../assets/img/gal-14.jpeg";
 
 
 class Home extends React.Component {
@@ -145,7 +161,10 @@ class Home extends React.Component {
                     />
                 </Homes>
                 <Gallery>
-                    Gallery
+
+                    <figure className="gallery__item gallery__item--1">
+                        <GalleryImage src={GalleryPhoto_1} />
+                    </figure>
                 </Gallery>
                 <Footer>
                     Footer
