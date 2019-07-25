@@ -8,7 +8,7 @@ const HomeCard = props => {
         <div className="home">
             <img src={props.image} alt={props.alt} className="home__img" />
             <SvgIcon
-                svgClass="home_like"
+                svgClass="home__like"
                 svgSelection="icon-heart-full"
             />
 
@@ -46,7 +46,7 @@ const HomeCard = props => {
                 <p>{props.priceText}</p>
             </div>
 
-            <button className="cta">Contact Realtor</button>
+            <button className="btn home__button">Contact Realtor</button>
 
         </div>
     )
