@@ -165,6 +165,45 @@ class Home extends React.Component {
                     <figure className="gallery__item gallery__item--1">
                         <GalleryImage src={GalleryPhoto_1} />
                     </figure>
+                    <figure className="gallery__item gallery__item--2">
+                        <GalleryImage src={GalleryPhoto_2} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--3">
+                        <GalleryImage src={GalleryPhoto_3} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--4">
+                        <GalleryImage src={GalleryPhoto_4} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--5">
+                        <GalleryImage src={GalleryPhoto_5} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--6">
+                        <GalleryImage src={GalleryPhoto_6} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--7">
+                        <GalleryImage src={GalleryPhoto_7} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--8">
+                        <GalleryImage src={GalleryPhoto_8} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--9">
+                        <GalleryImage src={GalleryPhoto_9} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--10">
+                        <GalleryImage src={GalleryPhoto_10} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--11">
+                        <GalleryImage src={GalleryPhoto_11} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--12">
+                        <GalleryImage src={GalleryPhoto_12} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--13">
+                        <GalleryImage src={GalleryPhoto_13} />
+                    </figure>
+                    <figure className="gallery__item gallery__item--14">
+                        <GalleryImage src={GalleryPhoto_14} />
+                    </figure>
                 </Gallery>
                 <Footer>
                     Footer
