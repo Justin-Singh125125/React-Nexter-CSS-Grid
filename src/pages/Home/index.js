@@ -17,6 +17,7 @@ import Feature from "../../components/Feature";
 import HomeCard from "../../components/HomeCard";
 import GalleryImage from "../../components/GalleryImage";
 import FooterNavbar from "../../components/FooterNavbar";
+import NavbarButton from "../../components/NavbarButton";
 
 //photos
 import HousePhoto_1 from "../../assets/img/house-1.jpeg";
@@ -47,7 +48,7 @@ class Home extends React.Component {
         return (
             <Container>
                 <Sidebar>
-                    Sidebar
+                    <NavbarButton />
                 </Sidebar>
                 <Header>
                     Header
