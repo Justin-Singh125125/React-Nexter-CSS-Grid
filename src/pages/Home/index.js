@@ -18,6 +18,7 @@ import HomeCard from "../../components/HomeCard";
 import GalleryImage from "../../components/GalleryImage";
 import FooterNavbar from "../../components/FooterNavbar";
 import NavbarButton from "../../components/NavbarButton";
+import Heading from "../../components/Heading";
 
 //photos
 import HousePhoto_1 from "../../assets/img/house-1.jpeg";
@@ -42,6 +43,12 @@ import GalleryPhoto_12 from "../../assets/img/gal-12.jpeg";
 import GalleryPhoto_13 from "../../assets/img/gal-13.jpeg";
 import GalleryPhoto_14 from "../../assets/img/gal-14.jpeg";
 
+import HeaderLogo from "../../assets/img/logo.png";
+import BBC_logo from "../../assets/img/logo-bbc.png";
+import Forbes_logo from "../../assets/img/logo-forbes.png";
+import Techcrunch_logo from "../../assets/img/logo-techcrunch.png";
+import Bi_logo from "../../assets/img/logo-bi.png";
+
 
 class Home extends React.Component {
     render() {
@@ -51,7 +58,23 @@ class Home extends React.Component {
                     <NavbarButton />
                 </Sidebar>
                 <Header>
-                    Header
+                    <img src={HeaderLogo} alt="Nexter logo" className="header__logo" />
+                    <Heading
+                        text="Your own home:"
+                        type="3"
+                    />
+                    <Heading
+                        text="The ultimate personal freedom"
+                        type="1"
+                    />
+                    <button className="btn header__btn">View our properties</button>
+                    <div className="header__seenon-text">Seen on</div>
+                    <div className="header__seenon-logos">
+                        <img src={BBC_logo} alt="seen on logo 1" />
+                        <img src={Forbes_logo} alt="seen on logo 2" />
+                        <img src={Techcrunch_logo} alt="seen on logo 3" />
+                        <img src={Bi_logo} alt="Seen on logo 4" />
+                    </div>
                 </Header>
                 <Realtors>
                     Top 3 realtors
