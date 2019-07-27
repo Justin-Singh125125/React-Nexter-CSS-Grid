@@ -21,6 +21,10 @@ import NavbarButton from "../../components/NavbarButton";
 import Heading from "../../components/Heading";
 
 //photos
+import RealtorPhoto_1 from "../../assets/img/realtor-1.jpeg"
+import RealtorPhoto_2 from "../../assets/img/realtor-2.jpeg"
+import RealtorPhoto_3 from "../../assets/img/realtor-3.jpeg"
+
 import HousePhoto_1 from "../../assets/img/house-1.jpeg";
 import HousePhoto_2 from "../../assets/img/house-2.jpeg";
 import HousePhoto_3 from "../../assets/img/house-3.jpeg";
@@ -77,7 +81,26 @@ class Home extends React.Component {
                     </div>
                 </Header>
                 <Realtors>
-                    Top 3 realtors
+                    <Heading text="Top 3 Realtors" type="3" />
+                    <div className="realtors__list">
+                        <img src={RealtorPhoto_1} alt="Realtor 1" className="realtors__img" />
+                        <div className="realtors__detail">
+                            <Heading type="4" color="light" text="Erik Feinman" />
+                            <p className="realtors__sold">245 houses sold</p>
+                        </div>
+
+                        <img src={RealtorPhoto_2} alt="Realtor 2" className="realtors__img" />
+                        <div className="realtors__detail">
+                            <Heading type="4" color="light" text="Kim Brown" />
+                            <p className="realtors__sold">212 houses sold</p>
+                        </div>
+
+                        <img src={RealtorPhoto_3} alt="Realtor 3" className="realtors__img" />
+                        <div className="realtors__detail">
+                            <Heading type="4" color="light" text="Toby Ramsey" />
+                            <p className="realtors__sold">198 houses sold</p>
+                        </div>
+                    </div>
                 </Realtors>
                 <Features>
                     <Feature
