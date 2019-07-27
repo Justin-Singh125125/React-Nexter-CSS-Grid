@@ -14,9 +14,13 @@
         align-items: center;
 
         background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url("../img/back.jpg");
+        background-size: cover;
 
-
-
+        @media screen and (max-width: $bp-medium){
+            grid-column: 1 / -1;
+            padding: 6rem;
+        }
+        
 
      
       
@@ -28,6 +32,11 @@
         grid-column: 2 / 6;
 
         box-shadow: 0 2rem 5rem rgba(black, .1);
+
+        @media screen and (max-width: $bp-medium){
+            grid-column: 1 / 5;
+            grid-row: 1 / -1;
+        }
        
     }
     &__img--2{
@@ -37,6 +46,12 @@
         z-index: 20;
 
         box-shadow: 0 2rem 5rem rgba(black, .2);
+
+        @media screen and (max-width: $bp-medium){
+            grid-row: 1 / -1;
+            width: 100%;
+        }
+       
 
        
 
@@ -62,6 +77,10 @@
         align-content: center;
         justify-items: start;
 
+        @media screen and (max-width: $bp-medium){
+            grid-column: 1 / -1;
+            grid-row: 5 / 6;
+        }
 
 
 
