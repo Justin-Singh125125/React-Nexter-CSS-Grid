@@ -25,4 +25,10 @@
     &::after{
         transform: translateY(1.3rem);
     }
+
+
+    @media screen and (max-width: $bp-large){
+       margin: 0;
+       margin-right: 3rem;
+     }
 }
